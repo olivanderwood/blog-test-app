@@ -32,7 +32,7 @@ const PostDetail = () => {
     },
   });
   return (
-    <Box display="flex" justifyContent={'center'}>
+    <Box display="flex" justifyContent={'center'} py={5}>
       <Stack width={'100%'}>
         <Box display={'flex'} justifyContent={'space-between'} width={'100%'}>
           <Typography variant="h3" fontWeight={'bold'} mb={0}>
